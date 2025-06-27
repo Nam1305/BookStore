@@ -1,0 +1,43 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# DotNet generated
+*.dbmdl
+*.bak
+*.log
+*.pdb
+
+# Others
+*.swp
+*.tmp
+
+# Configuration files
+appsettings.Development.json
+appsettings.*.json
+secrets.json
+
+# EF Migrations snapshot (optional)
+Migrations/
+
+# Node modules (if using frontend tooling)
+node_modules/
+
+# Publish output
+wwwroot/dist/
+publish/
