@@ -41,3 +41,8 @@ node_modules/
 # Publish output
 wwwroot/dist/
 publish/
+
+# Ignore Visual Studio temporary files, build results, and
+# Copilot cache files
+BookStore/.vs/
+
