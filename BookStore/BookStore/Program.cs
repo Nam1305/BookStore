@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews(); // <- DÒNG QUAN TRỌNG NHẤT
 
 // Add DbContext nếu dùng EF
 builder.Services.AddDbContext<BookStoreDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("BookStoreDB")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
